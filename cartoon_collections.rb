@@ -25,6 +25,7 @@ def find_the_cheese(strings)
 
   if strings.detect do |cheeses|
     return cheeses
+  end
   else
     include cheese_types
   end
